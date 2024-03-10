@@ -1,2 +1,5 @@
 
-enum Status {loading, completed, error}
+
+enum Status{
+  LOADING, COMPLETED, ERROR, FETCHING_NEXT_BATCH, FETCHED_ALL_BATCHES
+}
