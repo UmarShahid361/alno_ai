@@ -1,16 +1,43 @@
-# mvvm_architecture
+# MVVM Architecture in Flutter
 
-A new Flutter project.
+This repository provides an example of the MVVM (Model-View-ViewModel) architecture pattern implemented in a Flutter project. MVVM separates the presentation layer from the business logic and data layer, making the app more modular, maintainable, and testable.
 
-## Getting Started
+## Project Structure
 
-This project is a starting point for a Flutter application.
+The project is organized as follows:
 
-A few resources to get you started if this is your first Flutter project:
+- **models/**: Defines data models that represent the application's data structure.
+- **views/**: Contains UI components, implemented as Flutter widgets.
+- **view_models/**: Houses ViewModel classes that handle the interaction between views and models.
+- **services/**: Contains business logic and data fetching services.
+- **main.dart**: Entry point for the Flutter application.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To set up and run this project:
+
+1. Clone the repository:
+    ```shell
+    git clone https://github.com/UmarShahid361/MVVM.git
+    ```
+
+2. Navigate to the project directory:
+    ```shell
+    cd MVVM
+    ```
+
+3. Install dependencies:
+    ```shell
+    flutter pub get
+    ```
+
+4. Run the application:
+    ```shell
+    flutter run
+    ```
+
+## Usage
+
+The repository demonstrates the MVVM pattern in a Flutter application.
+
+
