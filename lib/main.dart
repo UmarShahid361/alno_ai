@@ -14,7 +14,7 @@ void main() async {
   await theme.getTheme();
   runApp(
     EasyLocalization(
-      supportedLocales: [Locale('en', null)],
+      supportedLocales: const [Locale('en', null)],
       path: 'assets/translations',
       child: MyApp(
         theme: theme,

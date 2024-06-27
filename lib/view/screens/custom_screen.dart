@@ -88,8 +88,8 @@ class _DemoScreenState extends State<DemoScreen> {
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: resolveCustomColor(
                           context: context,
-                          lightColor: AppColors.secondaryTextColorLight,
-                          darkColor: AppColors.secondaryTextColorDark),
+                          lightColor: AppColors.secondaryColorLight,
+                          darkColor: AppColors.secondaryColorDark),
                     ),
                   ),
 
@@ -114,8 +114,8 @@ class _DemoScreenState extends State<DemoScreen> {
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       color: resolveCustomColor(
                           context: context,
-                          lightColor: AppColors.secondaryTextColorLight,
-                          darkColor: AppColors.secondaryTextColorDark),
+                          lightColor: AppColors.secondaryColorLight,
+                          darkColor: AppColors.secondaryColorDark),
                     ),
                   ),
                 ],
@@ -125,8 +125,8 @@ class _DemoScreenState extends State<DemoScreen> {
               onPressed: _incrementCounter,
               backgroundColor: resolveCustomColor(
                   context: context,
-                  lightColor: AppColors.secondaryTextColorLight,
-                  darkColor: AppColors.secondaryTextColorDark),
+                  lightColor: AppColors.secondaryColorLight,
+                  darkColor: AppColors.secondaryColorDark),
               tooltip: 'Increment',
               child: const Icon(Icons.add),
             ), // This trailing comma makes auto-formatting nicer for build methods.
