@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_architecture/res/app_colors.dart';
-import 'package:mvvm_architecture/utils/logger_helpers.dart';
-import 'package:mvvm_architecture/view_model/theme_view_model.dart';
+import 'package:alno_ai/res/app_colors.dart';
+import 'package:alno_ai/utils/logger_helpers.dart';
+import 'package:alno_ai/view_model/theme_view_model.dart';
 import 'package:provider/provider.dart';
 
 class DemoScreen extends StatefulWidget {

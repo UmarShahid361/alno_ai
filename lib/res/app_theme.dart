@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_architecture/res/app_colors.dart';
+import 'package:alno_ai/res/app_colors.dart';
 
 
 class AppTheme {

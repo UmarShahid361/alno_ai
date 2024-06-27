@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:mvvm_architecture/repository/local/appSharedPreferences.dart';
+import 'package:alno_ai/repository/local/appSharedPreferences.dart';
 
 class ThemeViewModel with ChangeNotifier {
   final AppSharedPreferences _preferences = AppSharedPreferences();

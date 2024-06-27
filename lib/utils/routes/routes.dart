@@ -1,8 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:mvvm_architecture/utils/routes/routes_name.dart';
-import 'package:mvvm_architecture/view/screens/custom_screen.dart';
+import 'package:alno_ai/utils/routes/routes_name.dart';
+import 'package:alno_ai/view/screens/custom_screen.dart';
 
 class  Routes{
   static Route<dynamic>

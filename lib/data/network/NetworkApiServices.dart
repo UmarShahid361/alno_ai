@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
-import 'package:mvvm_architecture/data/app_exceptions.dart';
+import 'package:alno_ai/data/app_exceptions.dart';
 
 import 'BaseApiServices.dart';
 import 'Headers.dart';

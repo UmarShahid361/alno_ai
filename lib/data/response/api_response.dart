@@ -1,6 +1,6 @@
 
 
-import 'package:mvvm_architecture/data/response/status.dart';
+import 'package:alno_ai/data/response/status.dart';
 
 class ApiResponse {
   Status status;
